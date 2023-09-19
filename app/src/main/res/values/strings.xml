@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Day18_FruitsApp</string>
+    <string name="fresh_fruits">Fresh Fruits</string>
+    <string name="app_subheader">We have more than 100 fruits</string>
+    <string name="search_for_fruit">Search for fruit</string>
+    <string name="lorem_ipsum_datar_ae_simit_is_a_text_paragraph_that_is_very_popular_among_developers_of_all_kind">Lorem ipsum datar ae simit is a text paragraph that is very popular among developers of all kind</string>
+    <string name="symbol">$</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

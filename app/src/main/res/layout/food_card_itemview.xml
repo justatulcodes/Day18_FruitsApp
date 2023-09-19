@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_200sdp"
+    android:layout_height="@dimen/_320sdp"
+    android:id="@+id/product_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/_30sdp"
+    android:elevation="@dimen/_10sdp"
+    android:layout_margin="@dimen/_12sdp"
+    android:backgroundTint="@color/fruit_bg1"
+    app:cardElevation="@dimen/_2sdp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/iv_fruit"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/kiwi"
+            />
+
+        <TextView
+            android:id="@+id/tv_fruit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_22ssp"
+            tools:text="Avocado" />
+
+        <TextView
+            android:id="@+id/tv_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            tools:text="250g" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/symbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/green_price"
+                android:textSize="@dimen/_25ssp"
+                android:text="@string/symbol" />
+
+            <Space
+                android:layout_width="@dimen/_3sdp"
+                android:layout_height="0dp"/>
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/green_price"
+                android:textSize="@dimen/_25ssp"
+                tools:text="28.0" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/appCompatImageButton"
+                android:layout_gravity="center_vertical"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/nav_drawer_btn_shape"
+                android:src="@drawable/add_circle"
+               />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

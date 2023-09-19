@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_header_green">#29573c</color>
+    <color name="green_price">#376a4c</color>
+    <color name="red_price">#ff5d5e</color>
+    <color name="light_green_surface">#91e8b5</color>
+    <color name="favorite_icon_surface">#bce6a4</color>
+    <color name="subheading_gray">#a9b5ac</color>
+    <color name="dark_text">#303030</color>
+    <color name="very_light_text">#dadee1</color>
+
+    <color name="fruit_bg1">#91e8b5</color>
+    <color name="fruit_bg2">#bce6a4</color>
+    <color name="fruit_bg3">#CBFFA9</color>
+    <color name="fruit_bg4">#A4D0A4</color>
+    <color name="fruit_bg5">#A0D8B3</color>
+    <color name="fruit_bg6">#C7E9B0</color>
+    <color name="fruit_bg7">#C9F4AA</color>
+
+
+</resources>
